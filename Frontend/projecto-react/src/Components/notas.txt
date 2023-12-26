@@ -1,0 +1,1 @@
+Colocar componentes genericos: listas, formularios, botones, input (globales)

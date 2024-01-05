@@ -9,10 +9,13 @@ import sec1 from "./imgs/sec_1.png";
 import sec2 from "./imgs/sec_2.png";
 import sec3 from "./imgs/sec_3.png";
 import p1 from "./imgs/p_1.png";
-import p2 from "./imgs/p_2.png"
-import p3 from "./imgs/p_3.png"
-import p4 from "./imgs/p_4.png"
-import p5 from "./imgs/p_5.png"
+import p2 from "./imgs/p_2.png";
+import p3 from "./imgs/p_3.png";
+import p4 from "./imgs/p_4.png";
+import p5 from "./imgs/p_5.png";
+import p6 from "./imgs/p_6.png";
+import p7 from "./imgs/p_7.png";
+import p8 from "./imgs/p_8.png";
 import "./News.css";
 
 export const News = () => {
@@ -122,11 +125,32 @@ export const News = () => {
               <img src={p5} alt="img" />
             </div>
             <div className="nws_p_2">
-              <p>Lorem astu</p>
-              <p>Lorem astu</p>
-              <p>Lorem astu</p>
-              <p>Lorem astu</p>
+              <p>Carlos Chavez</p>
+              <p>Andres Castillo</p>
+              <p>Jorge Luna</p>
+              <p>Matias Sandoval</p>
             </div>
+          </div>
+
+          <div className="nws_sec_fotos_3">
+            <div className="nws_sec_c1">
+              <p>
+                One of the team's decisive plays to win one of the tournaments.
+              </p>
+              <img src={p6} alt="img" />
+            </div>
+            <div className="nws_sec_c2">
+              <img src={p7} alt="img" />
+              <p>
+                Another unforgettable moment when overcoming a game where
+                everyone considered it lost.
+              </p>
+            </div>
+          </div>
+
+          <div className="nws_sec_fotos_4">
+            <img src={p8} alt="" />
+            <p>🔥🏀Don't forget the most anticipated meeting for all fans of these two titans.🔥🏀</p>
           </div>
         </div>
       </div>

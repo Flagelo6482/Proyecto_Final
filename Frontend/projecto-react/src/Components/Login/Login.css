@@ -1,0 +1,50 @@
+/* CONTENDOR PRINCIPAL */
+.log_contenedor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #215EA6;
+}
+
+/* FORMULARIO */
+.log_form {
+    width: 30%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* gap: 50px; */
+    margin-top: 70px;
+
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid green;
+}
+/* TITULO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMAGEN IZQUIERDA */
+.log_img1 img {
+    width: 500px;
+    border: 1px solid blue;
+}
+/* IMAGEN DERECHA */
+.log_img2 img {
+    width: 500px;
+    border: 1px solid red;
+}

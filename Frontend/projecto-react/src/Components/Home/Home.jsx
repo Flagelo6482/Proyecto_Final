@@ -8,10 +8,10 @@ import { Login } from '../Login/Login'
 export const Home = () => {
   return (
     <>
-        {/* <Header /> */}
-        {/* <News /> */}
-        {/* <Footer /> */}
-        <Login />
+        <Header />
+        <News />
+        <Footer />
+        {/* <Login /> */}
     </>
   )
 }

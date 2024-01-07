@@ -11,8 +11,8 @@ export const Home = () => {
     <>
         <Header />
         {/* <games /> */}
-        {/* <News /> */}
-        {/* <Footer /> */}
+        <News />
+        <Footer />
         {/* <Login /> */}
     </>
   )

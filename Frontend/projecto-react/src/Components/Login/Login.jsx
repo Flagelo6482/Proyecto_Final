@@ -14,13 +14,15 @@ export const Login = () => {
         <div className="log_img1">
           <img src={img1} alt="" />
         </div>
+
+
         {/* FORMULARIO */}
         <form className="log_form">
             <h2>Hola administrador</h2>
             <p>Iniciar sesión para continuar</p>
             <div className="log_email">
                 <p>Correo electrónico</p>
-                <input type="text" placeholder="Introduce tu correo electrónico"/>
+                <input type="email" placeholder="Introduce tu correo electrónico"/>
             </div>
             <div className="log_password">
                 <p>Contraseña</p>
@@ -30,6 +32,8 @@ export const Login = () => {
             <a href="#">¿No tienes una cuenta?</a>
             <a href="#">Registrate</a>
         </form>
+
+
         {/* IMAGEN DERECHA */}
         <div className="log_img2">
           <img src={img2} alt="" />

@@ -9,7 +9,7 @@ export const Head = () => {
     <div className="head_contenedor">
 
         <div className="head_img">
-            <img src={img} alt="img" />
+            <a href=""><img src={img} alt="img" /></a>
         </div>
 
         <div className="head_title">

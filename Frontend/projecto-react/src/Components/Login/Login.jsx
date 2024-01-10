@@ -19,18 +19,23 @@ export const Login = () => {
         {/* FORMULARIO */}
         <form className="log_form">
             <h2>Hola administrador</h2>
-            <p>Iniciar sesión para continuar</p>
+            <p className="ttl2">Iniciar sesión para continuar</p>
+            
             <div className="log_email">
-                <p>Correo electrónico</p>
+                <p className="log_1">Correo electrónico</p>
                 <input type="email" placeholder="Introduce tu correo electrónico"/>
             </div>
             <div className="log_password">
                 <p>Contraseña</p>
                 <input type="password" placeholder="Introduce la contraseña"/>
             </div>
-            <button>Iniciar sesión</button>
-            <a href="#">¿No tienes una cuenta?</a>
-            <a href="#">Registrate</a>
+            <div className="log_btn">
+              <button className="log_iniciar">Iniciar sesión</button>
+            </div>
+            <div className="log_rgs">
+              <p>¿No tienes una cuenta?</p>
+              <a href="#">Registrate</a>
+            </div>
         </form>
 
 

@@ -1,7 +1,7 @@
 /* CONTENDOR PRINCIPAL */
 .log_contenedor {
     width: 100%;
-    height: 100vh;
+    height: 88.9vh;
     display: flex;
     justify-content: space-around;
 
@@ -15,20 +15,74 @@
     padding: 50px;
     margin-top: 80px;
 
-    background-color: rgb(156, 153, 153);
+    background-color: white;
     border-radius: 50px;
-    border: 1px solid green;
+    border: 4px solid #3803CF;
 }
 /* TITULO */
 .log_form h2 {
+    text-align: center;
     font-size: 35px;
+
+    color: #215EA6;
 }
+/* TITULO 2 */
+.ttl2 {
+    margin-top: 50px;
+    text-align: center;
+}
+/* EMAIL */
+.log_email {
+    margin-top: 70px;
+}
+.log_email input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/* PASSWORD */
+.log_password {
+    margin-top: 30px;
+}
+.log_password input{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/* BOTON */
+.log_btn {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
 
+    margin-top: 50px;
+}
+.log_btn .log_iniciar {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
 
-
-
+    border-radius: 10px;
+    border: none;
+    background-color: #215EA6;
+    color: white;
+}
+.log_btn:hover {
+    transform: scale(1.1);
+}
+/* REDIRIGIAR A REGISTRAR */
+.log_rgs {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 20px;
+}
 
 
 
@@ -38,10 +92,10 @@
 /* IMAGEN IZQUIERDA */
 .log_img1 img {
     width: 500px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 /* IMAGEN DERECHA */
 .log_img2 img {
     width: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }

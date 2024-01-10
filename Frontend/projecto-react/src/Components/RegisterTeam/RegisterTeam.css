@@ -1,0 +1,114 @@
+/* CONTENEDOR PRINCIPAL */
+.rg_t_contenedor {
+    width: 100%;
+    height: 88.9vh;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #215EA6;
+}
+/* FORMULARIO */
+.rg_t_form {
+    width: 500px;
+    height: 700px;
+    padding: 50px;
+    margin-top: 40px;
+
+    background-color: white;
+    border-radius: 50px;
+    border: 4px solid #3803CF;
+}
+/* TITULO */
+.rg_t_form h2 {
+    text-align: center;
+    font-size: 30px;
+
+    color: #215EA6;
+}
+/* SUBTITULO */
+.rg_t_sbt {
+    margin-top: 50px;
+    text-align: center;
+}
+/* NOMBRES */
+.rg_t_nombre {
+    margin-top: 30px;
+}
+/* NOMBRE DE ENTRENADOR */
+.rg_t_coach {
+    margin-top: 20px;
+}
+/* LOGO DE EQUIPO */
+.rg_t_logo p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* BOTON */
+.btn2 {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 55px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #215EA6;
+    color: white;
+}
+.btn2:hover {
+    transform: scale(1.1);
+}
+/* BOTON ENVIAR */
+.rg_t_btn {
+    margin-top: 20px;
+    text-align: center;
+}
+.rg_t_btn button {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    border: 2px solid#215EA6;
+}
+.rg_t_btn button:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* INPUTS */
+input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/* IMG1 */
+.rg_t_img1 img{
+    width: 500px;
+    margin-top: 60px;
+
+    /* border: 1px solid black; */
+}
+
+/* IMG2 */
+.rg_t_img2 img{
+    width: 500px;
+    margin-top: 60px;
+
+    /* border: 1px solid red; */
+}

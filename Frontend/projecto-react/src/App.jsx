@@ -7,12 +7,7 @@ import { Boards } from "./Components/Paginas/Boards/Boards";
 export const App = () => {
   return (
     <div>
-      <h1>Routes</h1>
-      <Routes>
-        <Route path="/header" element={<Header />}>
-          <Route path="boards" element={<Boards />}></Route>
-        </Route>
-      </Routes>
+      <Home />
     </div>
   );
 };

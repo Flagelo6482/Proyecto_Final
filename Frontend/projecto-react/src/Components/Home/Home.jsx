@@ -13,8 +13,8 @@ export const Home = () => {
   return (
     <>
         <Header />
-        {/* <News /> */}
-        {/* <Footer /> */}
+        <News />
+        <Footer />
         {/* <Login /> */}
         {/* <Register /> */}
         {/* <CompletePlayers /> */}
